@@ -377,8 +377,8 @@
 		<entity name="animalSnake" />
 		<entity name="animalZombieVulture" />
 		<entity name="animalWolf" />
-		<entity name="animalDireWolf" prob="0.15" />
-		<entity name="animalBear" prob="0.15" />
+		<entity name="animalDireWolf" prob="0.45" />
+		<entity name="animalBear" prob="0.45" />
 	</entitygroup>
 
 	<entitygroup name="EnemyAnimalsWasteland" >
