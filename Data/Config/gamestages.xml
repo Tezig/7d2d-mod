@@ -91,7 +91,7 @@ There is a console command: forcegamestage
 		survivalistGameDifficultyBonus="1.0"
 		insaneGameDifficultyBonus="1.5"
 		daysAliveDifficultyBonus="0.1"
-		daysAliveChangeWhenKilled ="2"
+		daysAliveChangeWhenKilled ="0"
 		diminishingReturns ="0.2"
 	/>
 
@@ -314,14 +314,36 @@ There is a console command: forcegamestage
 
 	<spawner name="FeralZombieHorde">
 		<gamestage stage="1"><spawn group="ZombiesFeral" num="1" maxAlive="1" duration="1"/></gamestage>
+		<gamestage stage="10"><spawn group="ZombiesFeral" num="1" maxAlive="3" duration="9"/></gamestage>
+		<gamestage stage="20"><spawn group="ZombiesFeral" num="5" maxAlive="6" duration="9"/></gamestage>
+		<gamestage stage="30"><spawn group="ZombiesFeral" num="5" maxAlive="9" duration="9"/></gamestage>
+		<gamestage stage="40"><spawn group="ZombiesFeral" num="7" maxAlive="12" duration="9"/></gamestage>
 	</spawner>
 
 	<spawner name="ZombieBikerBarHorde">
-		<gamestage stage="1"><spawn group="ZombieBikerBarGroup" num="1" maxAlive="1" duration="1"/></gamestage>
+		<gamestage stage="1"><spawn group="ZombieBikerBarGroup" num="20" maxAlive="1" duration="9"/></gamestage>
+		<gamestage stage="2"><spawn group="ZombieBikerBarGroup" num="20" maxAlive="10" duration="9"/></gamestage>
+		<gamestage stage="3"><spawn group="ZombieBikerBarGroup" num="20" maxAlive="12" duration="9"/></gamestage>
+		<gamestage stage="4"><spawn group="ZombieBikerBarGroup" num="20" maxAlive="12" duration="9"/></gamestage>
+		<gamestage stage="5"><spawn group="ZombieBikerBarGroup" num="20" maxAlive="14" duration="9"/></gamestage>
+		<gamestage stage="6"><spawn group="ZombieBikerBarGroup" num="20" maxAlive="14" duration="9"/></gamestage>
+		<gamestage stage="7"><spawn group="ZombieBikerBarGroup" num="20" maxAlive="16" duration="9"/></gamestage>
+		<gamestage stage="8"><spawn group="ZombieBikerBarGroup" num="20" maxAlive="16" duration="9"/></gamestage>
+		<gamestage stage="9"><spawn group="ZombieBikerBarGroup" num="20" maxAlive="18" duration="9"/></gamestage>		
+		
 	</spawner>
 
 	<spawner name="ZombieFootballStadiumHorde">
 		<gamestage stage="1"><spawn group="ZombieFootballStadiumGroup" num="1" maxAlive="1" duration="1"/></gamestage>
+		<gamestage stage="2"><spawn group="ZombieFootballStadiumGroup" num="20" maxAlive="10" duration="9"/></gamestage>
+		<gamestage stage="3"><spawn group="ZombieFootballStadiumGroup" num="20" maxAlive="12" duration="9"/></gamestage>
+		<gamestage stage="4"><spawn group="ZombieFootballStadiumGroup" num="20" maxAlive="12" duration="9"/></gamestage>
+		<gamestage stage="5"><spawn group="ZombieFootballStadiumGroup" num="20" maxAlive="14" duration="9"/></gamestage>
+		<gamestage stage="6"><spawn group="ZombieFootballStadiumGroup" num="20" maxAlive="14" duration="9"/></gamestage>
+		<gamestage stage="7"><spawn group="ZombieFootballStadiumGroup" num="20" maxAlive="16" duration="9"/></gamestage>
+		<gamestage stage="8"><spawn group="ZombieFootballStadiumGroup" num="20" maxAlive="16" duration="9"/></gamestage>
+		<gamestage stage="9"><spawn group="ZombieFootballStadiumGroup" num="20" maxAlive="16" duration="9"/></gamestage>
+		<gamestage stage="10"><spawn group="ZombieFootballStadiumGroup" num="20" maxAlive="16" duration="9"/></gamestage>
 	</spawner>
 
 	<spawner name="ZombieGhostTownHorde">
@@ -342,6 +364,12 @@ There is a console command: forcegamestage
 
 	<spawner name="ZombieDogHorde">
 		<gamestage stage="1"><spawn group="ZombieDogGroup" num="1" maxAlive="1" duration="1"/></gamestage>
+		<gamestage stage="6"><spawn group="ZombieDogGroup" num="5" maxAlive="3" duration="9"/></gamestage>
+		<gamestage stage="12"><spawn group="ZombieDogGroup" num="5" maxAlive="6" duration="9"/></gamestage>
+		<gamestage stage="18"><spawn group="ZombieDogGroup" num="10" maxAlive="9" duration="9"/></gamestage>
+		<gamestage stage="24"><spawn group="ZombieDogGroup" num="10" maxAlive="12" duration="9"/></gamestage>
+		<gamestage stage="30"><spawn group="ZombieDogGroup" num="15" maxAlive="15" duration="9"/></gamestage>
+	</spawner>
 	</spawner>
 
 	<spawner name="ZombieBusinessManHorde">
@@ -350,6 +378,7 @@ There is a console command: forcegamestage
 
 	<spawner name="ZombieBadassHorde">
 		<gamestage stage="1"><spawn group="ZombieBadassGroup" num="1" maxAlive="1" duration="1"/></gamestage>
+		<gamestage stage="10"><spawn group="ZombieBadassGroup" num="10" maxAlive="5" duration="9"/></gamestage>
 	</spawner>
 
 
