@@ -118,9 +118,9 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 </recipe>
 
 <recipe name="shotgunSlug" count="1" craft_area="workbench">
-	<ingredient name="bulletTip" count="5"/>
-	<ingredient name="gunPowder" count="4"/>
-	<ingredient name="bulletCasing" count="3"/>
+	<ingredient name="bulletTip" count="1"/>
+	<ingredient name="gunPowder" count="1"/>
+	<ingredient name="bulletCasing" count="1"/>
 </recipe>
 
 <recipe name="blunderbussAmmo" count="1">
@@ -264,9 +264,9 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="cloth" count="10"/>
 </recipe>
 
-<recipe name="baconAndEggs" count="1" craft_area="campfire" craft_tool="cookingPot">
-	<ingredient name="egg" count="2"/>
-	<ingredient name="rawMeat" count="1"/>
+<recipe name="baconAndEggs" count="5" craft_area="campfire" craft_tool="cookingPot">
+	<ingredient name="egg" count="5"/>
+	<ingredient name="rawMeat" count="2"/>
 </recipe>
 
 <recipe name="bakedPotato" count="1" craft_area="campfire" craft_tool="cookingGrill">
@@ -1049,14 +1049,14 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="shortMetalPipe" count="1"/>
 </recipe>
 
-<recipe name="forgedIron" count="1" craft_area="forge" material_based="true">
+<recipe name="forgedIron" count="3" craft_area="forge" material_based="true">
 	<ingredient name="unit_iron" count="10"/>
 	<ingredient name="unit_clay" count="5"/>
 </recipe>
 
-<recipe name="forgedSteel" count="1" craft_area="forge" craft_tool="forgeCrucible" material_based="true">
+<recipe name="forgedSteel" count="3" craft_area="forge" craft_tool="forgeCrucible" material_based="true">
 	<ingredient name="unit_iron" count="20"/>
-	<ingredient name="unit_clay" count="10"/>
+	<ingredient name="unit_coal" count="10"/>
 </recipe>
 
 <recipe name="garageDoorMetal_v1" count="1" craft_area="workbench">
@@ -1235,21 +1235,25 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 </recipe>
 
 <recipe name="parts44Magnum_cylinder" count="1" craft_area="workbench">
-    	<ingredient name="forgedSteel" count="45"/>
+    	<ingredient name="forgedSteel" count="5"/>
+	<ingredient name="mechanicalParts" count="1"/>
 </recipe>
 
 <recipe name="parts44Magnum_frame" count="1" craft_area="workbench">
-    	<ingredient name="forgedSteel" count="65"/>
+    	<ingredient name="forgedSteel" count="10"/>
+	<ingredient name="mechanicalParts" count="1"/>
 </recipe>
 
 <recipe name="parts44Magnum_parts" count="1" craft_area="workbench">
 	<ingredient name="spring" count="1"/>
-    	<ingredient name="forgedSteel" count="55"/>
+    	<ingredient name="forgedSteel" count="5"/>
+	<ingredient name="mechanicalParts" count="1"/>
 </recipe>
 
 <recipe name="parts44Magnum_grip" count="1" craft_area="workbench">
 	<ingredient name="scrapPlastics" count="25"/>
-    	<ingredient name="forgedSteel" count="35"/>
+    	<ingredient name="forgedSteel" count="5"/>
+	<ingredient name="leather" count="1"/>
 </recipe>
 	
 <recipe name="gunAK47" count="1" craft_area="assembly">
@@ -1261,17 +1265,23 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 </recipe>
 
 <recipe name="partsAK47_barrel" count="1" craft_area="workbench">
-    	<ingredient name="forgedSteel" count="35"/>
+    	<ingredient name="forgedSteel" count="5"/>
 </recipe>
 
 <recipe name="partsAK47_receiver" count="1" craft_area="workbench">
     	<ingredient name="wood" count="25"/>
-    	<ingredient name="forgedSteel" count="45"/>
+    	<ingredient name="forgedSteel" count="5"/>
 </recipe>
 
 <recipe name="partsAK47_parts" count="1" craft_area="workbench">
 	<ingredient name="spring" count="1"/>
-    	<ingredient name="forgedSteel" count="20"/>
+    	<ingredient name="forgedSteel" count="2"/>
+</recipe>
+
+<recipe name="partsAK47_stock" count="1" craft_area="workbench">
+    	<ingredient name="scrapPlastics" count="1"/>
+    	<ingredient name="forgedSteel" count="2"/>
+	<ingredient name="leather" count="1"/>
 </recipe>
 	
 <recipe name="compoundBow" count="1" craft_area="assembly">
@@ -1282,27 +1292,27 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 </recipe>
 
 <recipe name="partsCompoundBow_parts" count="1" craft_area="workbench">
-	<ingredient name="scrapPlastics" count="25"/>
-    	<ingredient name="forgedSteel" count="35"/>
-	<ingredient name="militaryFiber" count="10"/>
+	<ingredient name="scrapPlastics" count="5"/>
+    	<ingredient name="forgedSteel" count="5"/>
+	<ingredient name="militaryFiber" count="1"/>
 </recipe>
 
 <recipe name="partsCompoundBow_grip" count="1" craft_area="workbench">
-    	<ingredient name="forgedSteel" count="35"/>
-	<ingredient name="militaryFiber" count="5"/>
+    	<ingredient name="forgedSteel" count="5"/>
+	<ingredient name="militaryFiber" count="1"/>
 </recipe>
 
 <recipe name="partsCompoundBow_string" count="1" craft_area="workbench">
-   	<ingredient name="yuccaFibers" count="250"/>
-	<ingredient name="militaryFiber" count="10"/>
+   	<ingredient name="yuccaFibers" count="50"/>
+	<ingredient name="militaryFiber" count="1"/>
 	<ingredient name="ductTape" count="5"/>
 </recipe>
 
 <recipe name="partsCompoundBow_body" count="1" craft_area="workbench">
     <ingredient name="wood" count="50"/>
-	<ingredient name="militaryFiber" count="50"/>
-	<ingredient name="forgedSteel" count="50"/>
-	<ingredient name="ductTape" count="5"/>
+	<ingredient name="militaryFiber" count="5"/>
+	<ingredient name="forgedSteel" count="5"/>
+	<ingredient name="ductTape" count="1"/>
 </recipe>
 	
 <recipe name="gunHuntingRifle" count="1" craft_area="assembly">
@@ -1315,17 +1325,23 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	
 <recipe name="partsHuntingRifle_parts" count="1" craft_area="workbench">
 	<ingredient name="spring" count="1"/>
-   	<ingredient name="forgedSteel" count="35"/>
+   	<ingredient name="forgedSteel" count="5"/>
 </recipe>
 
 <recipe name="partsHuntingRifle_receiver" count="1" craft_area="workbench">
-   	<ingredient name="forgedSteel" count="25"/>
+   	<ingredient name="forgedSteel" count="5"/>
 </recipe>
 
 <recipe name="partsHuntingRifle_barrel" count="1" craft_area="workbench">
-   	<ingredient name="forgedSteel" count="45"/>
+   	<ingredient name="forgedSteel" count="5"/>
 </recipe>
-
+	
+<recipe name="partsHuntingRifle_stock" count="1" craft_area="workbench">
+    	<ingredient name="scrapPlastics" count="1"/>
+    	<ingredient name="forgedSteel" count="2"/>
+	<ingredient name="leather" count="1"/>
+</recipe>
+	
 <recipe name="gunMP5" count="1" craft_area="assembly">
 	<ingredient name="flashlight02" count="0"/>
 	<ingredient name="partsMP5_stock" count="1"/>
@@ -1335,19 +1351,28 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 </recipe>
 	
 <recipe name="partsMP5_barrel" count="1" craft_area="workbench">
-   	<ingredient name="forgedSteel" count="25"/>
+   	<ingredient name="forgedSteel" count="5"/>
+	<ingredient name="mechanicalParts" count="1"/>
 </recipe>
 
 <recipe name="partsMP5_receiver" count="1" craft_area="workbench">
-    	<ingredient name="leather" count="5"/>
-    	<ingredient name="forgedSteel" count="30"/>
+    	<ingredient name="leather" count="1"/>
+    	<ingredient name="forgedSteel" count="3"/>
+	<ingredient name="mechanicalParts" count="1"/>
 </recipe>
 
 <recipe name="partsMP5_parts" count="1" craft_area="workbench">
 	<ingredient name="spring" count="1"/>
-    	<ingredient name="forgedSteel" count="15"/>
+    	<ingredient name="forgedSteel" count="5"/>
+	<ingredient name="mechanicalParts" count="1"/>
 </recipe>
 
+<recipe name="partsMP5_stock" count="1" craft_area="workbench">
+    	<ingredient name="scrapPlastics" count="1"/>
+    	<ingredient name="forgedSteel" count="2"/>
+	<ingredient name="leather" count="1"/>
+</recipe>
+	
 <recipe name="gunPistol" count="1" craft_area="assembly">
 	<ingredient name="flashlight02" count="0"/>
 	<ingredient name="partsPistol_parts" count="1"/>
@@ -1357,21 +1382,25 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 </recipe>
 
 <recipe name="partsPistol_barrel" count="1" craft_area="workbench">
-    	<ingredient name="forgedSteel" count="35"/>
+    	<ingredient name="forgedSteel" count="2"/>
+	<ingredient name="mechanicalParts" count="1"/>
 </recipe>
 
 <recipe name="partsPistol_parts" count="1" craft_area="workbench">
 	<ingredient name="spring" count="1"/>
-    	<ingredient name="forgedSteel" count="35"/>
+    	<ingredient name="forgedSteel" count="2"/>
+	<ingredient name="mechanicalParts" count="1"/>
 </recipe>
 
 <recipe name="partsPistol_receiver" count="1" craft_area="workbench">
-	    <ingredient name="forgedSteel" count="35"/>
+	<ingredient name="forgedSteel" count="2"/>
+	<ingredient name="mechanicalParts" count="1"/>
 </recipe>
 
 <recipe name="partsPistol_grip" count="1" craft_area="workbench">
-    	<ingredient name="scrapPlastics" count="5"/>
-    	<ingredient name="forgedSteel" count="35"/>
+    	<ingredient name="scrapPlastics" count="1"/>
+    	<ingredient name="forgedSteel" count="2"/>
+	<ingredient name="leather" count="1"/>
 </recipe>
 	
 <recipe name="gunPowder" count="1" craft_area="chemistryStation">
@@ -1403,25 +1432,26 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 </recipe>
 
 <recipe name="partsPumpShotgun_barrel" count="1" craft_area="workbench">
-    	<ingredient name="leather" count="2"/>
+    	<ingredient name="mechanicalParts" count="1"/>
 	<ingredient name="wood" count="10"/>
-    	<ingredient name="forgedSteel" count="35"/>
+    	<ingredient name="forgedSteel" count="5"/>
 </recipe>
 
 <recipe name="partsPumpShotgun_barrelShort" count="1" craft_area="workbench">
-    	<ingredient name="leather" count="2"/>
+    	<ingredient name="mechanicalParts" count="1"/>
 	<ingredient name="wood" count="10"/>
-    	<ingredient name="forgedSteel" count="25"/>
+    	<ingredient name="forgedSteel" count="5"/>
 </recipe>
 
 <recipe name="partsPumpShotgun_parts" count="1" craft_area="workbench">
-	<ingredient name="spring" count="1"/>
+	<ingredient name="mechanicalParts" count="1"/>
     	<ingredient name="wood" count="15"/>
-    	<ingredient name="forgedSteel" count="20"/>
+    	<ingredient name="forgedSteel" count="2"/>
 </recipe>
 
 <recipe name="partsPumpShotgun_receiver" count="1" craft_area="workbench">
-    	<ingredient name="forgedSteel" count="35"/>
+    	<ingredient name="forgedSteel" count="3"/>
+	<ingredient name="mechanicalParts" count="1"/>
 </recipe>
 	
 <recipe name="gunRocketLauncher" count="1" craft_area="assembly">
@@ -1433,27 +1463,27 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 </recipe>
 	
 <recipe name="partsRocketLauncher_barrel" count="1" craft_area="workbench">
-	<ingredient name="leather" count="8"/>
+	<ingredient name="mechanicalParts" count="1"/>
     	<ingredient name="scrapPlastics" count="5"/>
-    	<ingredient name="forgedSteel" count="20"/>
+    	<ingredient name="forgedSteel" count="10"/>
 </recipe>
 	
 <recipe name="partsRocketLauncher_receiver" count="1" craft_area="workbench">
-	<ingredient name="leather" count="8"/>
+	<ingredient name="mechanicalParts" count="1"/>
     	<ingredient name="scrapPlastics" count="5"/>
-    	<ingredient name="forgedSteel" count="20"/>
+    	<ingredient name="forgedSteel" count="10"/>
 </recipe>
 	
 <recipe name="partsRocketLauncher_parts" count="1" craft_area="workbench">
-	<ingredient name="leather" count="8"/>
+	<ingredient name="mechanicalParts" count="1"/>
     	<ingredient name="scrapPlastics" count="5"/>
-    	<ingredient name="forgedSteel" count="20"/>
+    	<ingredient name="forgedSteel" count="10"/>
 </recipe>
 	
 <recipe name="partsRocketLauncher_stock" count="1" craft_area="workbench">
 	<ingredient name="leather" count="8"/>
     	<ingredient name="scrapPlastics" count="5"/>
-    	<ingredient name="forgedSteel" count="20"/>
+    	<ingredient name="forgedSteel" count="10"/>
 </recipe>
 	
 <recipe name="gunSawedOffPumpShotgun" count="1" craft_area="assembly">
@@ -1465,7 +1495,9 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 </recipe>
 
 <recipe name="partsPumpShotgun_stockShort" count="1" craft_area="workbench">
-    	<ingredient name="forgedSteel" count="35"/>
+    	<ingredient name="forgedSteel" count="5"/>
+	<ingredient name="leather" count="8"/>
+    	<ingredient name="scrapPlastics" count="5"/>
 </recipe>
 	
 <recipe name="gunSniperRifle" count="1" craft_area="assembly">
@@ -1479,25 +1511,25 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 <recipe name="partsSniperRifle_stock" count="1" craft_area="workbench">
 	<ingredient name="leather" count="8"/>
     	<ingredient name="scrapPlastics" count="5"/>
-    	<ingredient name="forgedSteel" count="20"/>
+    	<ingredient name="forgedSteel" count="2"/>
 </recipe>
 
 <recipe name="partsSniperRifle_barrel" count="1" craft_area="workbench">
-	<ingredient name="leather" count="8"/>
+	<ingredient name="mechanicalParts" count="1"/>
     	<ingredient name="scrapPlastics" count="5"/>
-    	<ingredient name="forgedSteel" count="20"/>
+    	<ingredient name="forgedSteel" count="2"/>
 </recipe>
 
 <recipe name="partsSniperRifle_receiver" count="1" craft_area="workbench">
-	<ingredient name="leather" count="8"/>
+	<ingredient name="mechanicalParts" count="1"/>
     	<ingredient name="scrapPlastics" count="5"/>
-    	<ingredient name="forgedSteel" count="20"/>
+    	<ingredient name="forgedSteel" count="2"/>
 </recipe>
 	
 <recipe name="partsSniperRifle_parts" count="1" craft_area="workbench">
-	<ingredient name="leather" count="8"/>
-    	<ingredient name="scrapPlastics" count="5"/>
-    	<ingredient name="forgedSteel" count="20"/>
+	<ingredient name="scrapPlastics" count="5"/>
+    	<ingredient name="forgedSteel" count="2"/>
+	<ingredient name="mechanicalParts" count="1"/>
 </recipe>
 	
 <recipe name="hayBaleBlock" count="1">
