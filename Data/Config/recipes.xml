@@ -1054,9 +1054,9 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="unit_clay" count="5"/>
 </recipe>
 
-<recipe name="forgedSteel" count="3" craft_area="forge" craft_tool="forgeCrucible" material_based="false">
+<recipe name="forgedSteel" count="3" craft_area="forge" craft_tool="forgeCrucible" material_based="true">
 	<ingredient name="unit_iron" count="20"/>
-	<ingredient name="coal" count="10"/>
+	
 </recipe>
 
 <recipe name="garageDoorMetal_v1" count="1" craft_area="workbench">
