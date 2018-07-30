@@ -99,8 +99,6 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="bulletCasing" count="1"/>
 </recipe>
 	
-<recipes>
-
 <recipe name="militaryFiber" count="1" tooltip="workbench">
 	<ingredient name="cloth" count="10"/>
 </recipe>
