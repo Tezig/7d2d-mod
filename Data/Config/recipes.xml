@@ -228,7 +228,6 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 <recipe name="partsAuger_parts" count="1" craft_area="workbench">
 	<ingredient name="forgedIron" count="20"/>
 	<ingredient name="forgedSteel" count="10"/>
-	<ingredient name="unit_brass" count="20"/>
 </recipe>
 	
 <recipe name="partsHandlebars" count="1" craft_area="workbench">
